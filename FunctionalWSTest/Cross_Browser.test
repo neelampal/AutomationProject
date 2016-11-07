@@ -1,0 +1,15 @@
+MoneyHansPage in Neelam's HTC 816 
+  selenium grid http://127.0.0.1:4727/wd/hub --dc.browserName Chrome --dc.platformName Android --dc.deviceName Neelam --dc.bundleId FA48KMZ02127 --page http://www.themoneyhans.com 
+        check homePage.spec --include mobile
+
+MoneyHansPage in local Firefox browser
+	selenium firefox http://www.themoneyhans.com/ 1024x768
+		check homePage.gspec 
+
+MoneyHansPage in local Chrome browser
+	selenium chrome http://www.themoneyhans.com/ 640x480
+		check homePage.gspec
+		
+MoneyHansPage in local Edge browser
+	selenium edge http://www.themoneyhans.com/ 1200x768
+		check homePage.gspec  

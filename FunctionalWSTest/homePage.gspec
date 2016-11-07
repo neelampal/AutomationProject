@@ -1,0 +1,49 @@
+@objects
+	money-hans-logo     xpath   //html/body/div/div[1]/div/div/div[1]/a/img
+	build-wealth        xpath  //*[@id="arch"]/div/h1
+	build-wealth-text   xpath  //*[@id="arch"]/div/p
+    architect-blueprint   css      .architect-bt
+    growth-pillar      	xpath   //*[@id="nav"]/ul/li[2]/a
+    freedom-slab       xpath   //*[@id="nav"]/ul/li[3]/a
+    essential-foundations    xpath   //*[@id="nav"]/ul/li[1]/a
+    fun-money-roof   xpath   //*[@id="nav"]/ul/li[4]/a
+    article-boy       xpath   //*[@id="arch"]/div/div[2]/a/img
+    hansi-image       xpath   //*[@id="left-nav"]/div[1]/a/img
+    what-would-text   xpath   //*[@id="navtop"]/div/h1
+    learn-link     xpath     //*[@id="left-nav"]/ul/li[1]/a
+    event-link     xpath    //*[@id="left-nav"]/ul/li[2]/a
+    ask-hansi-link xpath    //*[@id="left-nav"]/ul/li[3]/a
+    search-box   xpath    //*[@id="custom-search-input"]/div/input
+    
+= Header =
+    architect-blueprint:
+      left-of growth-pillar 15 px
+    money-hans-logo:  
+      above architect-blueprint 254 px
+    build-wealth:
+      text is "Build a House of Wealth"
+      below money-hans-logo 105 px
+    build-wealth-text:
+      text is "Click anywhere on the House to see content by category"
+      below build-wealth 0 to 15 px  
+    freedom-slab:
+      above growth-pillar 55 to 70 px
+    fun-money-roof:
+      above freedom-slab 28 px
+    essential-foundations:
+      below growth-pillar 75 to 90 px
+    article-boy:
+      below architect-blueprint 0 px
+    hansi-image:
+      right-of essential-foundations 115 px
+    what-would-text:
+      text starts "What"
+      above hansi-image 181 px
+    learn-link:
+      below what-would-text 20 px
+    event-link:
+      below what-would-text 68 px
+    ask-hansi-link:
+      below what-would-text 128 px        
+    search-box:
+      above what-would-text 100 to 120 px

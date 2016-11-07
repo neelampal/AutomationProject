@@ -1,0 +1,9 @@
+1478543327425	geckodriver	INFO	Listening on 127.0.0.1:52119
+1478543329420	mozprofile::profile	INFO	Using profile path C:\Users\ASKCOM~1\AppData\Local\Temp\rust_mozprofile.KW0o6sZZpQhO
+1478543329429	geckodriver::marionette	INFO	Starting browser C://Program Files (x86)//Mozilla Firefox//firefox.exe
+1478543329438	geckodriver::marionette	INFO	Connecting to Marionette on localhost:52129
+1478543331760	Marionette	INFO	Listening on port 52129
+1478543340112	Marionette	INFO	startBrowser b6c0d26e-ec86-4ef9-935d-ce4dc6c7de6f
+JavaScript error: http://themoneyhans.com/undefined, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: http://themoneyhans.com/undefined, line 1: SyntaxError: expected expression, got '<'
+[Child 11112] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052

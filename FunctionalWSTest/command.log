@@ -1,0 +1,36 @@
+11/07/2016 04:35:15 PM Logging command dir
+11/07/2016 04:35:15 PM Command executed command dir
+11/07/2016 04:35:15 PM Logging command dir c:
+11/07/2016 04:35:15 PM Command executed command dir c:
+11/07/2016 04:36:57 PM Logging command python testing.py
+11/07/2016 04:37:36 PM Error  executing command python testing.py
+11/07/2016 04:37:36 PM Logging command python testingfirefox.py
+11/07/2016 04:37:37 PM Error  executing command python testingfirefox.py
+11/07/2016 04:38:10 PM Logging command python testing.py
+11/07/2016 04:38:48 PM Command executed command python testing.py
+11/07/2016 04:38:48 PM Logging command python testingfirefox.py
+11/07/2016 04:38:53 PM Error  executing command python testingfirefox.py
+11/07/2016 04:50:37 PM Logging command python testingfirefox.py
+11/07/2016 04:50:37 PM Error  executing command python testingfirefox.py
+11/07/2016 04:51:41 PM Logging command python testingfirefox.py
+11/07/2016 04:51:43 PM Error  executing command python testingfirefox.py
+11/07/2016 05:04:14 PM Logging command python testingfirefox.py
+11/07/2016 05:04:16 PM Error  executing command python testingfirefox.py
+11/07/2016 05:15:15 PM Logging command cd C:\ & Users & ASK Computers & workspace & LayoutTesting
+11/07/2016 05:15:16 PM Error  executing command cd C:\ & Users & ASK Computers & workspace & LayoutTesting
+11/07/2016 05:16:33 PM Logging command cd C:\ & Users & ASK Computers & workspace & LayoutTesting
+11/07/2016 05:16:33 PM Error  executing command cd C:\ & Users & ASK Computers & workspace & LayoutTesting
+11/07/2016 05:18:57 PM Logging command galen Cross_Browser.test --htmlreport results
+11/07/2016 05:18:58 PM Error  executing command galen Cross_Browser.test --htmlreport results
+11/07/2016 05:25:00 PM Logging command galen test Cross_Browser.test --htmlreport results
+11/07/2016 05:26:13 PM Error  executing command galen test Cross_Browser.test --htmlreport results
+11/07/2016 05:26:13 PM Logging command python testing.py
+11/07/2016 05:26:54 PM Command executed command python testing.py
+11/07/2016 05:26:54 PM Logging command python testingedge.py
+11/07/2016 05:27:32 PM Error  executing command python testingedge.py
+11/07/2016 07:37:15 PM Logging command galen test Cross_Browser.test --htmlreport results
+11/07/2016 07:39:26 PM Error  executing command galen test Cross_Browser.test --htmlreport results
+11/07/2016 07:39:26 PM Logging command python testing.py
+11/07/2016 07:40:10 PM Command executed command python testing.py
+11/07/2016 07:40:10 PM Logging command python testingedge.py
+11/07/2016 07:40:58 PM Error  executing command python testingedge.py

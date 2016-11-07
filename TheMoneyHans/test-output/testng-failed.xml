@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [MoneyHans]" parallel="tests">
+  <test name="TestOnChrome(failed)" parallel="tests">
+    <classes>
+      <class name="MoneyHans.moneyHansChrome">
+        <methods>
+          <include name="verifyOnChrome"/>
+          <include name="setDriver"/>
+        </methods>
+      </class> <!-- MoneyHans.moneyHansChrome -->
+      <class name="MoneyHans.moneyHansFirefox">
+        <methods>
+          <include name="verifyOnFirefox"/>
+          <include name="setDriver"/>
+        </methods>
+      </class> <!-- MoneyHans.moneyHansFirefox -->
+      <class name="MoneyHans.moneyHansMicrooftEdge">
+        <methods>
+          <include name="verifyOnMicrosoftEdge"/>
+        </methods>
+      </class> <!-- MoneyHans.moneyHansMicrooftEdge -->
+    </classes>
+  </test> <!-- TestOnChrome(failed) -->
+</suite> <!-- Failed suite [MoneyHans] -->
